@@ -19,4 +19,4 @@ This source code is distributed without an official license. Unauthorized usage,
 - **Leak Contributor**: [Manas4sure](https://discord.gg/cQzRVAqTZ2)
 - **Support**: [Krypton HeadQuarters](https://discord.gg/kryptonbot)
 
-**Note**: Be sure to comply with **Discord's Developer Terms of Service** and all applicable regulations when utilizing or modifying this bot.
+**Note**: Be sure to comply with **Discord's Developer Terms of Service** and all applicable regulations when utilizing or modifying this code.
