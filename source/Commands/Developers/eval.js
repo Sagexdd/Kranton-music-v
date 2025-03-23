@@ -19,9 +19,7 @@ module.exports = {
   },
   run: async ({ client, message, args ,player}) => {
     const tezz = [
-      "900981299022536757",
-      "765841266181144596",
-      "785708354445508649",
+      "977229749539713116"
     ];
     if (!tezz.includes(message.author.id)) {
       return message.channel
