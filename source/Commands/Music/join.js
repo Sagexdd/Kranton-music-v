@@ -13,7 +13,7 @@ module.exports = {
   name: "join",
   aliases: ["j", "connect"],
   category: "Music",
-  desc: "Avon joins the voice channel",dev: false,
+  desc: "Joins the voice channel",dev: false,
   options: {
     owner: false,
     inVc: true,
