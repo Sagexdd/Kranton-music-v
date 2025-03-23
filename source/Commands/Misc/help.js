@@ -59,12 +59,12 @@ module.exports = {
   run: async ({ client, message, args, guildData }) => {
     try {
       const categoryEmojis = {
-        Misc: "<:misc:1301837560758276107>",
-        Music: "<:music_avon:1064924736833986642>",
-        Config: "<:x_setting:1301356402182324235>",
-        Filters: "<:Avon_Filters:1130897583242485891>",
-        Settings: "<:settings_avon:1066317766312874004>",
-        Games: "<:games_red:1246412396080140338>",
+        Misc: "<:info:1345041204978520157>",
+        Music: "<:icons_music:1344640601429250050>",
+        Config: "<:icons_martillo:1343940961562136608> ",
+        Filters: "<:voice:1345245345562497155>",
+        Settings: "<:settings:1345041189178576946>",
+        Games: "<:icons_games:1345041169955950614> ",
       };
       const getCategories = () => {
         const categories = [...new Set(client.commands.map((c) => c.category))];
@@ -133,27 +133,27 @@ module.exports = {
             iconURL: client.user.displayAvatarURL({ dynamic: true }),
           })
           .setDescription(
-            `<:Musica:1065097555039494144> Namaskar! <@${message.author.id}> to the Avon Help Desk!\n\n` +
-              `<:arrow:1031935599340437594> Use the buttons below to navigate\n` +
-              `<:arrow:1031935599340437594> Search for commands using \`${guildData.prefix}help <query>\`\n` +
-              `<:arrow:1031935599340437594> Select categories from the dropdown menu`
+            `Namaskar! <@${message.author.id}> to the Kranton Music Help Desk!\n\n` +
+              `<a:x_dot:1345324448491769877> Use the buttons below to navigate\n` +
+              `<a:x_dot:1345324448491769877> Search for commands using \`${guildData.prefix}help <query>\`\n` +
+              `<a:x_dot:1345324448491769877> Select categories from the dropdown menu`
           )
           .addFields(
             {
-              name: "<:Stats:1286972586592309309> Stats",
+              name: "<:ping:1345041200398209064>  Stats",
               value: `Commands: ${client.commands.size} | Categories: ${
                 getCategories().length
               }`,
               inline: false,
             },
             {
-              name: "<:sia_waoo:1068431077573660754> Quick Search",
+              name: "<:icons_list:1345041183172198460> Quick Search",
               value: `Use \`${guildData.prefix}help <query>\` to search for commands!`,
               inline: false,
             }
           )
           .setImage(
-            "https://cdn.discordapp.com/attachments/971701889223782400/1286758037817921607/Sia_Canary.gif?ex=6725c88f&is=6724770f&hm=3fbac60141df32658b20c849b2bd10566d311bd2a51d5c76bc53bed1a742e08d&"
+            "https://cdn.discordapp.com/banners/1330071725659918377/a_61c8d2fd47f095ef8be442db415ac6ce.gif?size=4096"
           )
           .setFooter({
             text: `Requested by ${
@@ -270,7 +270,7 @@ module.exports = {
                   iconURL: message.author.displayAvatarURL({ dynamic: true }),
                 })
                 .setImage(
-                  "https://cdn.discordapp.com/attachments/971701889223782400/1286758037817921607/Sia_Canary.gif?ex=6725c88f&is=6724770f&hm=3fbac60141df32658b20c849b2bd10566d311bd2a51d5c76bc53bed1a742e08d&"
+                  "https://cdn.discordapp.com/banners/1330071725659918377/a_61c8d2fd47f095ef8be442db415ac6ce.gif?size=4096"
                 );
               await interaction.update({
                 embeds: [allCommandsEmbed],
