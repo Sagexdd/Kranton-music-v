@@ -178,7 +178,7 @@ Load Avg    : ${os.loadavg().map(x => x.toFixed(2)).join(', ')}
       );
     const embed4 = createEmbed(
         "Developers Information",
-        `- <:co_owner:1287337208210001921> [**Tejas Shettigar (TEZZ 444)**](https://discord.com/users/900981299022536757)\n- <:co_owner:1287337208210001921> [**Punit**](https://discord.com/users/765841266181144596)\n- <:co_owner:1287337208210001921> [**Rihan (!! BOT !!)**](https://discord.com/users/785708354445508649)\n- <:co_owner:1287337208210001921> [**Mafia**](https://discord.com/users/1220040643766915112)`
+        `<a:cx_developer:1343921594166284341> [**Yuvi**](https://discord.com/users/977229749539713116)`
       );
       const createButton = (id, label, emoji, disabled = false) =>
         new ButtonBuilder()
